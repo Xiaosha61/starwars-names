@@ -1,9 +1,2 @@
 hi, this is greeting from hello.txt
-change from frog
-
-change the 2nd line in master
-
-change the 3rd line in frog
-
-change the 3rd line in master
-
+frog
