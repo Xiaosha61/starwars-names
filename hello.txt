@@ -1,3 +1,2 @@
 hi, this is greeting from hello.txt
-Modify by master using rebase!
-Modify by branch mywork try rebase!
+Modify by branch mywork try rebase! Rebase!
