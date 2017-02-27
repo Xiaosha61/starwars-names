@@ -1,4 +1,2 @@
 hi, this is greeting from hello.txt
-frogggggg
-another line to test
-maaaaaster
+master changed
