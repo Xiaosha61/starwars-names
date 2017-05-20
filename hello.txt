@@ -3,3 +3,5 @@ hi, this is greeting from hello.txt
 Modify by branch mywork try rebase! Rebase!
 
 Modify by master using rebase! Rebase!
+
+try 	autosetuprebase = always
