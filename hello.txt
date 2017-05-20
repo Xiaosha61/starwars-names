@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 hi, this is greeting from hello.txt
 
 Modify by branch mywork try rebase! Rebase!
 
 Modify by master using rebase! Rebase!
+=======
+
+stash & stash pop:
+Stash in master, 
+Stash pop in mywork,
+Then the modification is in mywork
+<=> merge modification with the current version of mywork
+>>>>>>> 8ce37f7dc86ae1a799d2fcb0032e66de42c040fc
