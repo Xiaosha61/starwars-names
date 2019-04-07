@@ -1,14 +1,16 @@
 {
   "name": "starwars-names-play",
-  "version": "1.4.0-beta.0",
+  "version": "0.0.0-development",
   "description": "Get random Star Wars Names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js --watch",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xiaosha61/starwars-names.git"
+    "url": "https://github.com/Xiaosha61/starwars-names.git"
   },
   "keywords": [
     "random",
@@ -23,5 +25,15 @@
   "homepage": "https://github.com/Xiaosha61/starwars-names#readme",
   "dependencies": {
     "unique-random-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "mocha": "^6.0.2",
+    "semantic-release": "^15.13.3"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
