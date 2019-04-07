@@ -6,10 +6,11 @@ cache:
 notifications:
   email: false
 node_js:
-  - iojs
+  - 9
 before_install:
   - npm i -g npm
 before_script:
+  - npm install
   - npm prune
 script:
   - npm run test
