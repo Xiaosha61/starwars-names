@@ -8,11 +8,14 @@ module.exports = {
         if (number === undefined) {
             return getRandomItem();
         } else {
-            var randomItems = [];
-            for (var i=0; i<number; i++) {
-                randomItems.push(getRandomItem());
+            if (typeof number === 'number') {
+                var randomItems = [];
+                for (var i=0; i<number; i++) {
+                    randomItems.push(getRandomItem());
+                }
+                return randomItems;
             }
-            return randomItems;
+            return [];
         }
     }
 };
